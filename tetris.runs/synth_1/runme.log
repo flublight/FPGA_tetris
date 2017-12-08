@@ -1,0 +1,487 @@
+
+*** Running vivado
+    with args -log tetris.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source tetris.tcl
+
+
+****** Vivado v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source tetris.tcl -notrace
+Command: synth_design -top tetris -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 10552 
+WARNING: [Synth 8-976] isline has already been declared [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/color.v:42]
+WARNING: [Synth 8-2654] second declaration of isline ignored [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/color.v:42]
+INFO: [Synth 8-994] isline is declared here [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/color.v:33]
+WARNING: [Synth 8-2441] non-module variable data0 cannot be initialized at declaration [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/color.v:281]
+WARNING: [Synth 8-2441] non-module variable data1 cannot be initialized at declaration [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/color.v:284]
+WARNING: [Synth 8-2441] non-module variable CTBL cannot be initialized at declaration [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/color.v:291]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 292.332 ; gain = 82.477
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'tetris' [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/tetris.v:3]
+INFO: [Synth 8-638] synthesizing module 'VGAtiming' [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/VGAtiming.v:16]
+INFO: [Synth 8-256] done synthesizing module 'VGAtiming' (1#1) [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/VGAtiming.v:16]
+INFO: [Synth 8-638] synthesizing module 'color' [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/color.v:1]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/color.v:26]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/color.v:28]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/color.v:31]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/color.v:39]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/color.v:40]
+INFO: [Synth 8-256] done synthesizing module 'color' (2#1) [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/color.v:1]
+WARNING: [Synth 8-350] instance 'color' of module 'color' requires 12 connections, but only 11 given [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/tetris.v:34]
+INFO: [Synth 8-638] synthesizing module 'sound' [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/sound.v:2]
+INFO: [Synth 8-256] done synthesizing module 'sound' (3#1) [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/sound.v:2]
+INFO: [Synth 8-256] done synthesizing module 'tetris' (4#1) [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/tetris.v:3]
+WARNING: [Synth 8-3331] design sound has unconnected port BTN[4]
+WARNING: [Synth 8-3331] design sound has unconnected port BTN[2]
+WARNING: [Synth 8-3331] design sound has unconnected port BTN[1]
+WARNING: [Synth 8-3331] design sound has unconnected port BTN[0]
+WARNING: [Synth 8-3331] design color has unconnected port Hcount[1]
+WARNING: [Synth 8-3331] design color has unconnected port Hcount[0]
+WARNING: [Synth 8-3331] design color has unconnected port Vcount[1]
+WARNING: [Synth 8-3331] design color has unconnected port Vcount[0]
+WARNING: [Synth 8-3331] design tetris has unconnected port SW[3]
+WARNING: [Synth 8-3331] design tetris has unconnected port SW[2]
+WARNING: [Synth 8-3331] design tetris has unconnected port CONT[7]
+WARNING: [Synth 8-3331] design tetris has unconnected port CONT[6]
+WARNING: [Synth 8-3331] design tetris has unconnected port CONT[5]
+WARNING: [Synth 8-3331] design tetris has unconnected port CONT[4]
+WARNING: [Synth 8-3331] design tetris has unconnected port CONT[3]
+WARNING: [Synth 8-3331] design tetris has unconnected port CONT[2]
+WARNING: [Synth 8-3331] design tetris has unconnected port CONT[1]
+WARNING: [Synth 8-3331] design tetris has unconnected port CONT[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 318.977 ; gain = 109.121
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin color:CONT[7] to constant 0 [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/tetris.v:34]
+WARNING: [Synth 8-3295] tying undriven pin color:CONT[6] to constant 0 [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/tetris.v:34]
+WARNING: [Synth 8-3295] tying undriven pin color:CONT[5] to constant 0 [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/tetris.v:34]
+WARNING: [Synth 8-3295] tying undriven pin color:CONT[4] to constant 0 [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/tetris.v:34]
+WARNING: [Synth 8-3295] tying undriven pin color:CONT[3] to constant 0 [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/tetris.v:34]
+WARNING: [Synth 8-3295] tying undriven pin color:CONT[2] to constant 0 [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/tetris.v:34]
+WARNING: [Synth 8-3295] tying undriven pin color:CONT[1] to constant 0 [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/tetris.v:34]
+WARNING: [Synth 8-3295] tying undriven pin color:CONT[0] to constant 0 [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/tetris.v:34]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 318.977 ; gain = 109.121
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/basys3.xdc]
+CRITICAL WARNING: [Designutils 20-970] Unrecognized or unsupported command 'set_property PACKAGE_PIN W16 [get_ports {CONT[1]]
+set_property PACKAGE_PIN J15 [get_ports {CONT[2]}]
+set_property PACKAGE_PIN WH15 [get_ports {CONT[3]]
+set_property PACKAGE_PIN V13 [get_ports {CONT[4] ... (truncated) ' found in constraint file. [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/basys3.xdc:442]
+Finished Parsing XDC File [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/basys3.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/basys3.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/tetris_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/tetris_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 626.738 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 626.738 ; gain = 416.883
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 626.738 ; gain = 416.883
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 626.738 ; gain = 416.883
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "VCnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/color.v:159]
+INFO: [Synth 8-5545] ROM "back" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "back" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "round" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "score" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "score" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "botan" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "botan" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "back" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "back" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "round" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "score" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "score" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "botan" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "botan" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "data0" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "data1" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "CTBL" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "b16num" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "tquantum" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 626.738 ; gain = 416.883
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     35 Bit       Adders := 1     
+	   2 Input     35 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 3     
+	   2 Input     25 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 3     
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 2     
+	   2 Input      2 Bit       Adders := 2     
+	   2 Input      1 Bit       Adders := 1     
++---Registers : 
+	              128 Bit    Registers := 1     
+	               35 Bit    Registers := 2     
+	               32 Bit    Registers := 1     
+	               25 Bit    Registers := 1     
+	               11 Bit    Registers := 3     
+	                9 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   2 Input    128 Bit        Muxes := 11    
+	   4 Input    128 Bit        Muxes := 2     
+	   2 Input     35 Bit        Muxes := 5     
+	   5 Input     35 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 3     
+	   2 Input     25 Bit        Muxes := 1     
+	   4 Input     24 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 1     
+	   3 Input     11 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 3     
+	   2 Input      4 Bit        Muxes := 3     
+	   2 Input      3 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 14    
+	   6 Input      1 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module tetris 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 3     
+Module VGAtiming 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 2     
++---Registers : 
+	               11 Bit    Registers := 2     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     11 Bit        Muxes := 1     
+	   3 Input     11 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module color 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     35 Bit       Adders := 1     
+	   2 Input     35 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 3     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 2     
+	   2 Input      2 Bit       Adders := 1     
+	   2 Input      1 Bit       Adders := 1     
++---Registers : 
+	              128 Bit    Registers := 1     
+	               35 Bit    Registers := 2     
+	               32 Bit    Registers := 1     
+	               11 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input    128 Bit        Muxes := 11    
+	   4 Input    128 Bit        Muxes := 2     
+	   2 Input     35 Bit        Muxes := 5     
+	   5 Input     35 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 3     
+	   4 Input     24 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 3     
+	   2 Input      3 Bit        Muxes := 2     
+	   6 Input      1 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 9     
+	   3 Input      1 Bit        Muxes := 1     
+Module sound 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     25 Bit       Adders := 1     
+	   2 Input      9 Bit       Adders := 1     
++---Registers : 
+	               25 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     25 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "back" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "botan" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "round" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "back" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "score" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+DSP Report: Generating DSP next1, operation Mode is: (A:0x186a0)*B.
+DSP Report: operator next1 is absorbed into DSP next1.
+INFO: [Synth 8-5546] ROM "VGAtiming/VCnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "sound/tquantum" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "sound/b16num" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-3331] design color has unconnected port Hcount[1]
+WARNING: [Synth 8-3331] design color has unconnected port Hcount[0]
+WARNING: [Synth 8-3331] design color has unconnected port Vcount[1]
+WARNING: [Synth 8-3331] design color has unconnected port Vcount[0]
+WARNING: [Synth 8-3331] design tetris has unconnected port SW[3]
+WARNING: [Synth 8-3331] design tetris has unconnected port SW[2]
+WARNING: [Synth 8-3331] design tetris has unconnected port CONT[7]
+WARNING: [Synth 8-3331] design tetris has unconnected port CONT[6]
+WARNING: [Synth 8-3331] design tetris has unconnected port CONT[5]
+WARNING: [Synth 8-3331] design tetris has unconnected port CONT[4]
+WARNING: [Synth 8-3331] design tetris has unconnected port CONT[3]
+WARNING: [Synth 8-3331] design tetris has unconnected port CONT[2]
+WARNING: [Synth 8-3331] design tetris has unconnected port CONT[1]
+WARNING: [Synth 8-3331] design tetris has unconnected port CONT[0]
+WARNING: [Synth 8-3332] Sequential element (back_reg[25]) is unused and will be removed from module color.
+WARNING: [Synth 8-3332] Sequential element (back_reg[16]) is unused and will be removed from module color.
+WARNING: [Synth 8-3332] Sequential element (back_reg[9]) is unused and will be removed from module color.
+WARNING: [Synth 8-3332] Sequential element (back_reg[0]) is unused and will be removed from module color.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:40 ; elapsed = 00:00:43 . Memory (MB): peak = 626.738 ; gain = 416.883
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping  Report (see note below)
++------------+---------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping   | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+---------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|color       | (A:0x186a0)*B | 11     | 17     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++------------+---------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:54 ; elapsed = 00:00:56 . Memory (MB): peak = 670.805 ; gain = 460.949
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:56 ; elapsed = 00:00:58 . Memory (MB): peak = 684.500 ; gain = 474.645
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:58 ; elapsed = 00:01:01 . Memory (MB): peak = 734.535 ; gain = 524.680
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3295] tying undriven pin color:CONT[7] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin color:CONT[6] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin color:CONT[5] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin color:CONT[4] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin color:CONT[3] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin color:CONT[2] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin color:CONT[1] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin color:CONT[0] to constant 0
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:59 ; elapsed = 00:01:02 . Memory (MB): peak = 734.535 ; gain = 524.680
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:59 ; elapsed = 00:01:02 . Memory (MB): peak = 734.535 ; gain = 524.680
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:59 ; elapsed = 00:01:02 . Memory (MB): peak = 734.535 ; gain = 524.680
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:59 ; elapsed = 00:01:02 . Memory (MB): peak = 734.535 ; gain = 524.680
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:59 ; elapsed = 00:01:02 . Memory (MB): peak = 734.535 ; gain = 524.680
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:59 ; elapsed = 00:01:02 . Memory (MB): peak = 734.535 ; gain = 524.680
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |BUFG    |     2|
+|2     |CARRY4  |    46|
+|3     |DSP48E1 |     1|
+|4     |LUT1    |   134|
+|5     |LUT2    |   215|
+|6     |LUT3    |   148|
+|7     |LUT4    |   275|
+|8     |LUT5    |   204|
+|9     |LUT6    |   963|
+|10    |MUXF7   |     9|
+|11    |FDRE    |   309|
+|12    |FDSE    |    52|
+|13    |IBUF    |     8|
+|14    |OBUF    |    20|
++------+--------+------+
+
+Report Instance Areas: 
++------+------------+----------+------+
+|      |Instance    |Module    |Cells |
++------+------------+----------+------+
+|1     |top         |          |  2386|
+|2     |  color     |color     |  2089|
+|3     |  VGAtiming |VGAtiming |    83|
+|4     |  sound     |sound     |   180|
++------+------------+----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:59 ; elapsed = 00:01:02 . Memory (MB): peak = 734.535 ; gain = 524.680
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 26 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:49 ; elapsed = 00:00:54 . Memory (MB): peak = 734.535 ; gain = 216.918
+Synthesis Optimization Complete : Time (s): cpu = 00:01:00 ; elapsed = 00:01:02 . Memory (MB): peak = 734.535 ; gain = 524.680
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 55 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'tetris' is not ideal for floorplanning, since the cellview 'color' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+59 Infos, 59 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:00 ; elapsed = 00:01:01 . Memory (MB): peak = 734.535 ; gain = 524.680
+INFO: [Common 17-1381] The checkpoint 'C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/tetris.runs/synth_1/tetris.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.025 . Memory (MB): peak = 734.535 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Jun 01 21:18:39 2017...

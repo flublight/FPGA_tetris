@@ -1,0 +1,499 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Thu Jun 01 21:18:45 2017
+# Process ID: 11844
+# Current directory: C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/tetris.runs/impl_1
+# Command line: vivado.exe -log tetris.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source tetris.tcl -notrace
+# Log file: C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/tetris.runs/impl_1/tetris.vdi
+# Journal file: C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/tetris.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source tetris.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 55 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'tetris' is not ideal for floorplanning, since the cellview 'color' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-479] Netlist was created with Vivado 2016.4
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/basys3.xdc]
+CRITICAL WARNING: [Common 17-69] Command failed: 'L16' is not a valid site or package pin name. [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/basys3.xdc:8]
+CRITICAL WARNING: [Common 17-69] Command failed: 'T16' is not a valid site or package pin name. [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/basys3.xdc:13]
+CRITICAL WARNING: [Common 17-69] Command failed: 'P15' is not a valid site or package pin name. [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/basys3.xdc:17]
+CRITICAL WARNING: [Common 17-69] Command failed: 'G15' is not a valid site or package pin name. [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/basys3.xdc:19]
+CRITICAL WARNING: [Common 17-69] Command failed: 'G14' is not a valid site or package pin name. [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/basys3.xdc:50]
+CRITICAL WARNING: [Common 17-69] Command failed: 'M15' is not a valid site or package pin name. [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/basys3.xdc:52]
+CRITICAL WARNING: [Common 17-69] Command failed: 'M14' is not a valid site or package pin name. [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/basys3.xdc:54]
+CRITICAL WARNING: [Common 17-69] Command failed: 'P16' is not a valid site or package pin name. [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/basys3.xdc:129]
+CRITICAL WARNING: [Common 17-69] Command failed: 'Y16' is not a valid site or package pin name. [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/basys3.xdc:135]
+CRITICAL WARNING: [Common 17-69] Command failed: 'T20' is not a valid site or package pin name. [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/basys3.xdc:136]
+CRITICAL WARNING: [Common 17-69] Command failed: 'V12' is not a valid site or package pin name. [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/basys3.xdc:140]
+CRITICAL WARNING: [Common 17-69] Command failed: 'L20' is not a valid site or package pin name. [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/basys3.xdc:262]
+CRITICAL WARNING: [Common 17-69] Command failed: 'J20' is not a valid site or package pin name. [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/basys3.xdc:265]
+CRITICAL WARNING: [Common 17-69] Command failed: 'G20' is not a valid site or package pin name. [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/basys3.xdc:268]
+CRITICAL WARNING: [Common 17-69] Command failed: 'P20' is not a valid site or package pin name. [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/basys3.xdc:271]
+CRITICAL WARNING: [Common 17-69] Command failed: 'M20' is not a valid site or package pin name. [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/basys3.xdc:274]
+CRITICAL WARNING: [Common 17-69] Command failed: 'H18' is not a valid site or package pin name. [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/basys3.xdc:283]
+CRITICAL WARNING: [Common 17-69] Command failed: 'N20' is not a valid site or package pin name. [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/basys3.xdc:286]
+CRITICAL WARNING: [Common 17-69] Command failed: 'L19' is not a valid site or package pin name. [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/basys3.xdc:289]
+CRITICAL WARNING: [Common 17-69] Command failed: 'V12' is not a valid site or package pin name. [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/basys3.xdc:441]
+CRITICAL WARNING: [Designutils 20-970] Unrecognized or unsupported command 'set_property PACKAGE_PIN W16 [get_ports {CONT[1]]
+set_property PACKAGE_PIN J15 [get_ports {CONT[2]}]
+set_property PACKAGE_PIN WH15 [get_ports {CONT[3]]
+set_property PACKAGE_PIN V13 [get_ports {CONT[4] ... (truncated) ' found in constraint file. [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/basys3.xdc:442]
+Finished Parsing XDC File [C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/basys3.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+link_design: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 462.199 ; gain = 252.660
+INFO: [Vivado_Tcl 4-424] Cannot write hardware definition file as there are no IPI block design hardware handoff files present
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.539 . Memory (MB): peak = 469.805 ; gain = 7.605
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+
+Phase 1 Generate And Synthesize Debug Cores
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'.
+INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:xsdbm:2.0 for cell dbg_hub_CV.
+INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:ila:6.2 for cell u_ila_0_CV.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.078 . Memory (MB): peak = 977.734 ; gain = 0.000
+Phase 1 Generate And Synthesize Debug Cores | Checksum: 1a4c26f55
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:03:59 . Memory (MB): peak = 977.734 ; gain = 82.156
+Implement Debug Cores | Checksum: 1fe35ac2e
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 2 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 2 Retarget | Checksum: 1b16f7391
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:04:00 . Memory (MB): peak = 1024.207 ; gain = 128.629
+
+Phase 3 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-10] Eliminated 16 cells.
+Phase 3 Constant propagation | Checksum: 208c25a67
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:04:00 . Memory (MB): peak = 1024.207 ; gain = 128.629
+
+Phase 4 Sweep
+INFO: [Opt 31-12] Eliminated 196 unconnected nets.
+INFO: [Opt 31-11] Eliminated 2 unconnected cells.
+Phase 4 Sweep | Checksum: 14685f1e4
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:04:01 . Memory (MB): peak = 1024.207 ; gain = 128.629
+
+Phase 5 BUFG optimization
+INFO: [Opt 31-12] Eliminated 2 unconnected nets.
+INFO: [Opt 31-11] Eliminated 0 unconnected cells.
+Phase 5 BUFG optimization | Checksum: 1f1c4f686
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:04:01 . Memory (MB): peak = 1024.207 ; gain = 128.629
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 1024.207 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 1f1c4f686
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:04:01 . Memory (MB): peak = 1024.207 ; gain = 128.629
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 26 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 26 newly gated: 0 Total Ports: 52
+Ending PowerOpt Patch Enables Task | Checksum: 1e018c857
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.076 . Memory (MB): peak = 1201.605 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 1e018c857
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1201.605 ; gain = 177.398
+INFO: [Common 17-83] Releasing license: Implementation
+39 Infos, 1 Warnings, 21 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:25 ; elapsed = 00:04:18 . Memory (MB): peak = 1201.605 ; gain = 739.406
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.037 . Memory (MB): peak = 1201.605 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/tetris.runs/impl_1/tetris_opt.dcp' has been generated.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/tetris.runs/impl_1/tetris_drc_opted.rpt.
+INFO: [Chipscope 16-240] Debug cores have already been implemented
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.040 . Memory (MB): peak = 1201.605 ; gain = 0.000
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 1201.605 ; gain = 0.000
+
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device
+WARNING: [Place 30-87] Partially locked IO Bus is found. Following components of the IO Bus BTN are not locked:  'BTN[4]'  'BTN[3]'  'BTN[1]' 
+WARNING: [Place 30-87] Partially locked IO Bus is found. Following components of the IO Bus LED are not locked:  'LED[3]'  'LED[2]'  'LED[1]' 
+WARNING: [Place 30-87] Partially locked IO Bus is found. Following components of the IO Bus SW are not locked:  'SW[3]'  'SW[2]'  'SW[0]' 
+WARNING: [Place 30-87] Partially locked IO Bus is found. Following components of the IO Bus VGA_BLUE are not locked:  'VGA_BLUE[1]'  'VGA_BLUE[0]' 
+WARNING: [Place 30-87] Partially locked IO Bus is found. Following components of the IO Bus VGA_GREEN are not locked:  'VGA_GREEN[2]'  'VGA_GREEN[1]'  'VGA_GREEN[0]' 
+WARNING: [Place 30-87] Partially locked IO Bus is found. Following components of the IO Bus VGA_RED are not locked:  'VGA_RED[3]'  'VGA_RED[2]'  'VGA_RED[1]' 
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 152187f5a
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 1201.605 ; gain = 0.000
+
+Phase 1.2 Build Placer Netlist Model
+Phase 1.2 Build Placer Netlist Model | Checksum: 1efcf14bf
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 1201.605 ; gain = 0.000
+
+Phase 1.3 Constrain Clocks/Macros
+Phase 1.3 Constrain Clocks/Macros | Checksum: 1efcf14bf
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 1201.605 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 1efcf14bf
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 1201.605 ; gain = 0.000
+
+Phase 2 Global Placement
+Phase 2 Global Placement | Checksum: 19f6d0c8b
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 1201.605 ; gain = 0.000
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 19f6d0c8b
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 1201.605 ; gain = 0.000
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 1f0cc93ff
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 1201.605 ; gain = 0.000
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 215c8436a
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 1201.605 ; gain = 0.000
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 215c8436a
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 1201.605 ; gain = 0.000
+
+Phase 3.5 Timing Path Optimizer
+Phase 3.5 Timing Path Optimizer | Checksum: 2746cb5d3
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 1201.605 ; gain = 0.000
+
+Phase 3.6 Small Shape Detail Placement
+Phase 3.6 Small Shape Detail Placement | Checksum: 1c4af2486
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:12 . Memory (MB): peak = 1201.605 ; gain = 0.000
+
+Phase 3.7 Re-assign LUT pins
+Phase 3.7 Re-assign LUT pins | Checksum: 1ecc697d0
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:12 . Memory (MB): peak = 1201.605 ; gain = 0.000
+
+Phase 3.8 Pipeline Register Optimization
+Phase 3.8 Pipeline Register Optimization | Checksum: 1ecc697d0
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:12 . Memory (MB): peak = 1201.605 ; gain = 0.000
+Phase 3 Detail Placement | Checksum: 1ecc697d0
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:12 . Memory (MB): peak = 1201.605 ; gain = 0.000
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+INFO: [Place 30-746] Post Placement Timing Summary WNS=8.471. For the most accurate timing information please run report_timing.
+Phase 4.1.1 Post Placement Optimization | Checksum: 18be40ebe
+
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:14 . Memory (MB): peak = 1201.605 ; gain = 0.000
+Phase 4.1 Post Commit Optimization | Checksum: 18be40ebe
+
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:14 . Memory (MB): peak = 1201.605 ; gain = 0.000
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 18be40ebe
+
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:14 . Memory (MB): peak = 1201.605 ; gain = 0.000
+
+Phase 4.3 Placer Reporting
+Phase 4.3 Placer Reporting | Checksum: 18be40ebe
+
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:14 . Memory (MB): peak = 1201.605 ; gain = 0.000
+
+Phase 4.4 Final Placement Cleanup
+Phase 4.4 Final Placement Cleanup | Checksum: 133ae8c5f
+
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:14 . Memory (MB): peak = 1201.605 ; gain = 0.000
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 133ae8c5f
+
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:14 . Memory (MB): peak = 1201.605 ; gain = 0.000
+Ending Placer Task | Checksum: f5a4796e
+
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:14 . Memory (MB): peak = 1201.605 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+57 Infos, 7 Warnings, 21 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:15 . Memory (MB): peak = 1201.605 ; gain = 0.000
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.585 . Memory (MB): peak = 1201.605 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/tetris.runs/impl_1/tetris_placed.dcp' has been generated.
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.078 . Memory (MB): peak = 1201.605 ; gain = 0.000
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.075 . Memory (MB): peak = 1201.605 ; gain = 0.000
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.025 . Memory (MB): peak = 1201.605 ; gain = 0.000
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+WARNING: [DRC 23-20] Rule violation (PLIO-3) Placement Constraints Check for IO constraints - Partially locked IO Bus is found. Following components of the IO Bus BTN[4:0] are not locked:  BTN[4] BTN[3] BTN[1]
+WARNING: [DRC 23-20] Rule violation (PLIO-3) Placement Constraints Check for IO constraints - Partially locked IO Bus is found. Following components of the IO Bus LED[3:0] are not locked:  LED[3] LED[2] LED[1]
+WARNING: [DRC 23-20] Rule violation (PLIO-3) Placement Constraints Check for IO constraints - Partially locked IO Bus is found. Following components of the IO Bus SW[3:0] are not locked:  SW[3] SW[2] SW[0]
+WARNING: [DRC 23-20] Rule violation (PLIO-3) Placement Constraints Check for IO constraints - Partially locked IO Bus is found. Following components of the IO Bus VGA_BLUE[3:0] are not locked:  VGA_BLUE[1] VGA_BLUE[0]
+WARNING: [DRC 23-20] Rule violation (PLIO-3) Placement Constraints Check for IO constraints - Partially locked IO Bus is found. Following components of the IO Bus VGA_GREEN[3:0] are not locked:  VGA_GREEN[2] VGA_GREEN[1] VGA_GREEN[0]
+WARNING: [DRC 23-20] Rule violation (PLIO-3) Placement Constraints Check for IO constraints - Partially locked IO Bus is found. Following components of the IO Bus VGA_RED[3:0] are not locked:  VGA_RED[3] VGA_RED[2] VGA_RED[1]
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors, 6 Warnings
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Checksum: PlaceDB: d37d02cc ConstDB: 0 ShapeSum: 222776a2 RouteDB: 0
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: 14fb40b5b
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:22 . Memory (MB): peak = 1201.605 ; gain = 0.000
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: 14fb40b5b
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:22 . Memory (MB): peak = 1201.605 ; gain = 0.000
+
+Phase 2.2 Fix Topology Constraints
+Phase 2.2 Fix Topology Constraints | Checksum: 14fb40b5b
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:22 . Memory (MB): peak = 1201.605 ; gain = 0.000
+
+Phase 2.3 Pre Route Cleanup
+Phase 2.3 Pre Route Cleanup | Checksum: 14fb40b5b
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:22 . Memory (MB): peak = 1201.605 ; gain = 0.000
+ Number of Nodes with overlaps = 0
+
+Phase 2.4 Update Timing
+Phase 2.4 Update Timing | Checksum: 1919efa53
+
+Time (s): cpu = 00:00:28 ; elapsed = 00:00:24 . Memory (MB): peak = 1201.605 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=8.386  | TNS=0.000  | WHS=-0.150 | THS=-18.135|
+
+Phase 2 Router Initialization | Checksum: 167b6f582
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:24 . Memory (MB): peak = 1201.988 ; gain = 0.383
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 247952f78
+
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:25 . Memory (MB): peak = 1201.988 ; gain = 0.383
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 565
+ Number of Nodes with overlaps = 4
+ Number of Nodes with overlaps = 0
+
+Phase 4.1.1 Update Timing
+Phase 4.1.1 Update Timing | Checksum: 20b3a9235
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:26 . Memory (MB): peak = 1201.988 ; gain = 0.383
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=8.310  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.1 Global Iteration 0 | Checksum: 1af6223f8
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:26 . Memory (MB): peak = 1201.988 ; gain = 0.383
+
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 0
+
+Phase 4.2.1 Update Timing
+Phase 4.2.1 Update Timing | Checksum: 12a9fceb1
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:26 . Memory (MB): peak = 1201.988 ; gain = 0.383
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=8.036  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.2 Global Iteration 1 | Checksum: 12a9fceb1
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:26 . Memory (MB): peak = 1201.988 ; gain = 0.383
+Phase 4 Rip-up And Reroute | Checksum: 12a9fceb1
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:26 . Memory (MB): peak = 1201.988 ; gain = 0.383
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+Phase 5.1 Delay CleanUp | Checksum: 12a9fceb1
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:26 . Memory (MB): peak = 1201.988 ; gain = 0.383
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 12a9fceb1
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:26 . Memory (MB): peak = 1201.988 ; gain = 0.383
+Phase 5 Delay and Skew Optimization | Checksum: 12a9fceb1
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:26 . Memory (MB): peak = 1201.988 ; gain = 0.383
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 19dd5953e
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:27 . Memory (MB): peak = 1201.988 ; gain = 0.383
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=8.130  | TNS=0.000  | WHS=0.064  | THS=0.000  |
+
+Phase 6.1 Hold Fix Iter | Checksum: 139d0f8c1
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:27 . Memory (MB): peak = 1201.988 ; gain = 0.383
+Phase 6 Post Hold Fix | Checksum: 139d0f8c1
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:27 . Memory (MB): peak = 1201.988 ; gain = 0.383
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 1.59005 %
+  Global Horizontal Routing Utilization  = 2.17309 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: 1b6967633
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:27 . Memory (MB): peak = 1201.988 ; gain = 0.383
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 1b6967633
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:27 . Memory (MB): peak = 1201.988 ; gain = 0.383
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 1ce73b308
+
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:27 . Memory (MB): peak = 1201.988 ; gain = 0.383
+
+Phase 10 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=8.130  | TNS=0.000  | WHS=0.064  | THS=0.000  |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 10 Post Router Timing | Checksum: 1ce73b308
+
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:27 . Memory (MB): peak = 1201.988 ; gain = 0.383
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:27 . Memory (MB): peak = 1201.988 ; gain = 0.383
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+71 Infos, 13 Warnings, 21 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:00:37 ; elapsed = 00:00:29 . Memory (MB): peak = 1201.988 ; gain = 0.383
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.751 . Memory (MB): peak = 1201.988 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/tetris.runs/impl_1/tetris_routed.dcp' has been generated.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/tetris.runs/impl_1/tetris_drc_routed.rpt.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Coretcl 2-1520] The results of Report Methodology are in file C:/Users/tamura/OneDrive/kenkyu/FPGA_tetris/Jikken2_FPGA/tetris/tetris.runs/impl_1/tetris_methodology_drc_routed.rpt.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Command: report_power -file tetris_power_routed.rpt -pb tetris_power_summary_routed.pb -rpx tetris_power_routed.rpx
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+81 Infos, 14 Warnings, 21 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+Command: write_bitstream -force -no_partial_bitfile tetris.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+Running DRC as a precondition to command write_bitstream
+INFO: [DRC 23-27] Running DRC with 2 threads
+ERROR: [DRC 23-20] Rule violation (UCIO-1) Unconstrained Logical Port - 17 out of 28 logical ports have no user assigned specific location constraint (LOC). This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all pin locations. This design will fail to generate a bitstream unless all logical ports have a user specified site LOC constraint defined.  To allow bitstream creation with unspecified pin locations (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks UCIO-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run.  Problem ports: BTN[4], BTN[3], BTN[1], SW[0], LED[3], LED[2], LED[1], VGA_RED[3], VGA_RED[2], VGA_RED[1], VGA_GREEN[2], VGA_GREEN[1], VGA_GREEN[0], VGA_BLUE[1], VGA_BLUE[0] (the first 15 of 17 listed).
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP color/next1 input color/next1/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) PREG Output pipelining - DSP color/next1 output color/next1/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC 23-20] Rule violation (DPOP-2) MREG Output pipelining - DSP color/next1 multiplier stage color/next1/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC 23-20] Rule violation (RTSTAT-10) No routable loads - 31 net(s) have no routable loads. The problem bus(es) and/or net(s) are dbg_hub/inst/RUNTEST, dbg_hub/inst/TCK, dbg_hub/inst/TMS, dbg_hub/inst/UPDATE_temp_i, dbg_hub/inst/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v2_0_2_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, dbg_hub/inst/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_CTL/ctl_reg[2:0], dbg_hub/inst/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD1/ctl_reg_en_2[1], dbg_hub/inst/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_CTL/ctl_reg_en_2[1], dbg_hub/inst/SWITCH_N_EXT_BSCAN.bscan_switch/m_bscan_capture[0], dbg_hub/inst/SWITCH_N_EXT_BSCAN.bscan_switch/m_bscan_drck[0], dbg_hub/inst/SWITCH_N_EXT_BSCAN.bscan_switch/m_bscan_flags[7:0], dbg_hub/inst/SWITCH_N_EXT_BSCAN.bscan_switch/m_bscan_runtest[0], dbg_hub/inst/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v2_0_2_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i, dbg_hub/inst/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdbm_v2_0_2_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i, dbg_hub/inst/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdbm_v2_0_2_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/rd_rst_reg[0] (the first 15 of 22 listed).
+INFO: [Vivado 12-3199] DRC finished with 1 Errors, 4 Warnings
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+ERROR: [Vivado 12-1345] Error(s) found during DRC. Bitgen not run.
+INFO: [Common 17-83] Releasing license: Implementation
+86 Infos, 18 Warnings, 21 Critical Warnings and 2 Errors encountered.
+write_bitstream failed
+ERROR: [Common 17-39] 'write_bitstream' failed due to earlier errors.
+
+INFO: [Common 17-206] Exiting Vivado at Thu Jun 01 21:24:14 2017...

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1496319453">
+  <File Type="PWROPT-DRC" Name="tetris_drc_pwropted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="tetris_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="tetris_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="tetris_power_routed.rpx"/>
+  <File Type="PA-TCL" Name="tetris.tcl"/>
+  <File Type="OPT-HWDEF" Name="tetris.hwdef"/>
+  <File Type="RDI-RDI" Name="tetris.vdi"/>
+  <File Type="OPT-DCP" Name="tetris_opt.dcp"/>
+  <File Type="OPT-DRC" Name="tetris_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="tetris_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="tetris_pwropt.dcp"/>
+  <File Type="PWROPT-TIMING" Name="tetris_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="tetris_placed.dcp"/>
+  <File Type="PLACE-IO" Name="tetris_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="tetris_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="tetris_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="tetris_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="tetris_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="tetris_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="tetris_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="tetris_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="tetris_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="tetris_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="tetris_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="tetris_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="tetris_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="tetris_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="tetris_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="tetris_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="tetris_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="tetris_drc_routed.pb"/>
+  <File Type="BG-BIN" Name="tetris.bin"/>
+  <File Type="ROUTE-DRC-RPX" Name="tetris_drc_routed.rpx"/>
+  <File Type="BG-DRC" Name="tetris.drc"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="tetris_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MSK" Name="tetris.msk"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="tetris_methodology_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="tetris.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="tetris_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="tetris_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="tetris_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="tetris_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="tetris_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="tetris_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="tetris_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="tetris_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="tetris_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="tetris_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="tetris_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="tetris_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="tetris_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="tetris_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="tetris_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="tetris.bit"/>
+  <File Type="BITSTR-RBT" Name="tetris.rbt"/>
+  <File Type="BITSTR-NKY" Name="tetris.nky"/>
+  <File Type="BITSTR-BMM" Name="tetris_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="tetris.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="tetris.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/VGAtiming.v">
+      <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/sound.v">
+      <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/color.v">
+      <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/tetris.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="tetris"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/basys3.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PPRDIR/basys3.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2015"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
